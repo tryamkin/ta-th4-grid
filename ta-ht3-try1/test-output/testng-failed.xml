@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ta-ht3-try1(failed)">
+    <classes>
+      <class name="CartTest">
+        <methods>
+          <include name="setupProfile"/>
+          <include name="quit"/>
+          <include name="setupTest"/>
+          <include name="priceVStotalPrice"/>
+        </methods>
+      </class> <!-- CartTest -->
+    </classes>
+  </test> <!-- ta-ht3-try1(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

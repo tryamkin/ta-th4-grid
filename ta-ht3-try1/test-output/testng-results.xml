@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-13T15:43:30 CEST" name="Default Suite" finished-at="2022-09-13T15:43:36 CEST" duration-ms="6516">
+    <groups>
+    </groups>
+    <test started-at="2022-09-13T15:43:30 CEST" name="ta-ht3-try1" finished-at="2022-09-13T15:43:36 CEST" duration-ms="6516">
+      <class name="CartTest">
+        <test-method is-config="true" signature="setupProfile()[pri:0, instance:CartTest@4b44655e]" started-at="2022-09-13T15:43:30 CEST" name="setupProfile" finished-at="2022-09-13T15:43:31 CEST" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupProfile -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:CartTest@4b44655e]" started-at="2022-09-13T15:43:31 CEST" name="setupTest" finished-at="2022-09-13T15:43:35 CEST" duration-ms="4383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="cartIsEmpty()[pri:0, instance:CartTest@4b44655e]" started-at="2022-09-13T15:43:35 CEST" name="cartIsEmpty" finished-at="2022-09-13T15:43:36 CEST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartIsEmpty -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:CartTest@4b44655e]" started-at="2022-09-13T15:43:36 CEST" name="quit" finished-at="2022-09-13T15:43:36 CEST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- CartTest -->
+    </test> <!-- ta-ht3-try1 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
