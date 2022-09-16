@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TA-HW4-Grid" parallel="tests">
+    <test name="testForChrome" parallel="methods" thread-count="1">
+        <parameter name="broser" value="chrome"></parameter>
+        <classes>
+        <class name="HomeTest">
+            <methods>
+                <include name="checkTitle"/>
+                <include name="open"/>
+            </methods>
+        </class>
+            <class name="SearchPageTest">
+                <methods>
+                    <include name="searchNotEmpty"/>
+                    <include name="isSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="testForFirefox" parallel="methods" thread-count="1">
+        <parameter name="broser" value="firefox"></parameter>
+        <classes>
+            <class name="HomeTest">
+                <methods>
+                    <include name="checkTitle"/>
+                    <include name="open"/>
+                </methods>
+            </class>
+            <class name="SearchPageTest">
+                <methods>
+                    <include name="searchNotEmpty"/>
+                    <include name="isSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
